@@ -1,0 +1,6 @@
+framework module JMCrashIfResign {
+  umbrella header "Pods-JMCrashIfResign_Example-JMCrashIfResign-umbrella.h"
+
+  export *
+  module * { export * }
+}

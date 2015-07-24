@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JMCrashIfResign_Example', :exclusive => true do
+  pod "JMCrashIfResign", :path => "../"
+end
+
+target 'JMCrashIfResign_Tests', :exclusive => true do
+  pod "JMCrashIfResign", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
