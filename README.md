@@ -9,6 +9,20 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```objc
+#import "JMResignDetector.h"
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
+    [JMResignDetector registerSecureTeamIdentifiers:@[@"35C6XY72U8", @"35C6X642UI", @"G8WDYDSFS7"]];
+
+
+    return YES;
+}
+```
+
+
 ## Requirements
 
 ## Installation
