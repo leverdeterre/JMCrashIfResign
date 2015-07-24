@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/leverdeterre/JMCrashIfResign"
   s.license          = 'MIT'
   s.author           = { "Jerome Morissard" => "morissardj@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JMCrashIfResign.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/leverdeterre/JMCrashIfResign.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/leverdeterre'
 
   s.platform     = :ios, '5.0'
