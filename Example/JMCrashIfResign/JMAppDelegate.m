@@ -14,7 +14,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [JMResignDetector registerSecureTeamIdentifiers:@[@"35C6XY72U8", @"35C6X642UI"]];
+    [JMResignDetector registerSecureTeamIdentifiers:@[@"35C6XY72U8", @"35C6X642UI", @"G8WDYDSFS7"]];
     return YES;
 }
 

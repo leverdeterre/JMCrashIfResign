@@ -142,6 +142,22 @@
             }
         }
         
+        if ([self lineString:line containsKey:MobileProvisioningTeamIdentifier]) {
+            NSString *nextLine = [lines objectAtIndex:i+1];
+            NSMutableArray *teamIdentifiers = [NSMutableArray new];
+            while ([nextLine rangeOfString:@"</array>"].location == NSNotFound) {
+                NSString *value = [self extractStringValueInLine:nextLine];
+                if (value.length > 0) {
+                    [teamIdentifiers addObject:value];
+                }
+                
+                i++;
+                nextLine = [lines objectAtIndex:i];
+            }
+            
+            [dictionary setObject:teamIdentifiers forKey:MobileProvisioningTeamIdentifier];
+        }
+        
         if ([self lineString:line containsKey:MobileProvisioningGetTaskAllow]) {
             NSString *nextLine = [lines objectAtIndex:i+1];
             NSString *isDevMobileProvisioning = [self extractBoolValueInLine:nextLine];

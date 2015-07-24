@@ -739,10 +739,10 @@
 		D9EF4E7CA73FC15E932C7D59 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6CA808A7A09DDCE2ABBA4A49 /* JMMobileProvisionning.h */,
-				D8D0129FB44B7044F544EA7B /* JMMobileProvisionning.m */,
 				2626378A8188817C21605E00 /* JMResignDetector.h */,
 				66B6FBE4F82B3551FB0DA41E /* JMResignDetector.m */,
+				6CA808A7A09DDCE2ABBA4A49 /* JMMobileProvisionning.h */,
+				D8D0129FB44B7044F544EA7B /* JMMobileProvisionning.m */,
 				7D5B00AB0F2D389DC1B0E1C9 /* NSDictionary+JMCrashIfResign.h */,
 				854182598DA0E4C197732C71 /* NSDictionary+JMCrashIfResign.m */,
 			);

@@ -23,7 +23,7 @@
         }
         
         if ([dict objectForKey:MobileProvisioningTeamIdentifier]) {
-            _teamIdentifier = [dict objectForKey:MobileProvisioningTeamIdentifier];
+            _teamIdentifiers = [dict objectForKey:MobileProvisioningTeamIdentifier];
         }
         
         if ([dict objectForKey:MobileProvisioningCreationDate]) {

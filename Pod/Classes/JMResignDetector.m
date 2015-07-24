@@ -18,7 +18,7 @@
     JMMobileProvisionning *provisionning = [[JMMobileProvisionning alloc] initWithDictionary:provisionningDict];
     
     if (provisionning && teamIdentifiers.count) {
-        if (![teamIdentifiers containsObject:provisionning.teamIdentifier]) {
+        if (![teamIdentifiers containsObject:provisionning.teamIdentifiers.firstObject]) {
             NSLog(@"Exit, App not signed with secure teamIdentifier");
             exit(0);
         }

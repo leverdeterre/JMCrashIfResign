@@ -37,7 +37,7 @@ typedef NS_ENUM(NSUInteger, JMMobileProvisionningPushConfiguration) {
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSArray *provisionedDevices;
 @property (strong, nonatomic) NSString *teamName;
-@property (strong, nonatomic) NSString *teamIdentifier;
+@property (strong, nonatomic) NSArray *teamIdentifiers;
 @property (strong, nonatomic) NSString *isDevMobileProvisioning;
 @property (strong, nonatomic) NSString *apsEnvironment;
 @property (assign, readonly, nonatomic) JMMobileProvisionningPushConfiguration pushConfiguration;
