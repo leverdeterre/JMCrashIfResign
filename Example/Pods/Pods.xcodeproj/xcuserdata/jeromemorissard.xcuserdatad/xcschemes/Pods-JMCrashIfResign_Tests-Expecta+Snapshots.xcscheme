@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6F1A966777D01F0102C4EEE"
-               BuildableName = "Expecta_Snapshots.framework"
+               BlueprintIdentifier = "D91079BB3BFA7F743733E7B7"
+               BuildableName = "libPods-JMCrashIfResign_Tests-Expecta+Snapshots.a"
                BlueprintName = "Pods-JMCrashIfResign_Tests-Expecta+Snapshots"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

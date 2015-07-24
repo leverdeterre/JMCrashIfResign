@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "64E47DC7FA4676B837C7416B"
+               BlueprintIdentifier = "668616A4F7CDE6B18FFD44F6"
                BuildableName = "JMCrashIfResign.bundle"
                BlueprintName = "Pods-JMCrashIfResign_Tests-JMCrashIfResign-JMCrashIfResign"
                ReferencedContainer = "container:Pods.xcodeproj">

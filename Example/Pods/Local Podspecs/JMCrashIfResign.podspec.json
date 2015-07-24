@@ -1,19 +1,20 @@
 {
   "name": "JMCrashIfResign",
   "version": "0.1.0",
-  "summary": "A short description of JMCrashIfResign.",
+  "summary": "JMCrashIfResign is a way to protect your application again bad usage...",
   "description": "                       An optional longer description of JMCrashIfResign\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JMCrashIfResign",
+  "homepage": "https://github.com/leverdeterre/JMCrashIfResign",
   "license": "MIT",
   "authors": {
-    "Jerome Morissard": "jerome.morissard@backelite.com"
+    "Jerome Morissard": "morissardj@gmail.com"
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/JMCrashIfResign.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/leverdeterre",
   "platforms": {
-    "ios": "7.0"
+    "ios": "5.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

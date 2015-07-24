@@ -7,12 +7,14 @@
 //
 
 #import "JMAppDelegate.h"
+#import "JMResignDetector.h"
 
 @implementation JMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [JMResignDetector registerSecureTeamIdentifiers:@[@"35C6XY72U8", @"35C6X642UI"]];
     return YES;
 }
 

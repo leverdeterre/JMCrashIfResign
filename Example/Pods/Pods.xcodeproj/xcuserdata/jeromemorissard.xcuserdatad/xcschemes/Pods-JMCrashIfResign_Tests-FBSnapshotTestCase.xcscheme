@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFADA02AF4E9B39DE2B3EDB5"
-               BuildableName = "FBSnapshotTestCase.framework"
+               BlueprintIdentifier = "53DE8A2AA4CC69635A8D54FB"
+               BuildableName = "libPods-JMCrashIfResign_Tests-FBSnapshotTestCase.a"
                BlueprintName = "Pods-JMCrashIfResign_Tests-FBSnapshotTestCase"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

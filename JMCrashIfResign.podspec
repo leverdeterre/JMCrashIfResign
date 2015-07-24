@@ -1,30 +1,20 @@
-#
-# Be sure to run `pod lib lint JMCrashIfResign.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "JMCrashIfResign"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JMCrashIfResign."
+  s.summary          = "JMCrashIfResign is a way to protect your application again bad usage..."
   s.description      = <<-DESC
                        An optional longer description of JMCrashIfResign
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JMCrashIfResign"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/leverdeterre/JMCrashIfResign"
   s.license          = 'MIT'
-  s.author           = { "Jerome Morissard" => "jerome.morissard@backelite.com" }
+  s.author           = { "Jerome Morissard" => "morissardj@gmail.com" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JMCrashIfResign.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/leverdeterre'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '5.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -32,7 +22,4 @@ Pod::Spec.new do |s|
     'JMCrashIfResign' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

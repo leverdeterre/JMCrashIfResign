@@ -22,7 +22,7 @@ SPEC CHECKSUMS:
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  JMCrashIfResign: fd1adeeb352f56aaa9ef3971904c3a2dda090a67
+  JMCrashIfResign: 033f8ad4b3b3e2fd606cdb2b68b0e57856c46c8c
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
 COCOAPODS: 0.37.2

@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "26D6807697F3D7916F639F5E"
-               BuildableName = "JMCrashIfResign.framework"
+               BlueprintIdentifier = "74AB4136A311A7393424FBC5"
+               BuildableName = "libPods-JMCrashIfResign_Example-JMCrashIfResign.a"
                BlueprintName = "Pods-JMCrashIfResign_Example-JMCrashIfResign"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
