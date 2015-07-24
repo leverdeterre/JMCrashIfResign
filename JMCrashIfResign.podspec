@@ -1,12 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = "JMCrashIfResign"
   s.version          = "0.1.0"
-  s.summary          = "JMCrashIfResign is a way to protect your application again bad usage..."
+  s.summary          = "JMCrashIfResign is a way to protect your application against bad usage..."
   s.description      = <<-DESC
-                       An optional longer description of JMCrashIfResign
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        This lib use a mobile provisionning parser to extract the registered TeamIdentifier.
+                        Will execute exit(0) to stop the application.
                        DESC
   s.homepage         = "https://github.com/leverdeterre/JMCrashIfResign"
   s.license          = 'MIT'

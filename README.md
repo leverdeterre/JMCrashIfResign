@@ -1,13 +1,9 @@
 # JMCrashIfResign
 
-[![CI Status](http://img.shields.io/travis/Jerome Morissard/JMCrashIfResign.svg?style=flat)](https://travis-ci.org/Jerome Morissard/JMCrashIfResign)
-[![Version](https://img.shields.io/cocoapods/v/JMCrashIfResign.svg?style=flat)](http://cocoapods.org/pods/JMCrashIfResign)
-[![License](https://img.shields.io/cocoapods/l/JMCrashIfResign.svg?style=flat)](http://cocoapods.org/pods/JMCrashIfResign)
-[![Platform](https://img.shields.io/cocoapods/p/JMCrashIfResign.svg?style=flat)](http://cocoapods.org/pods/JMCrashIfResign)
+JMCrashIfResign is a way to protect your application against bad usage.
+JMCrashIfResign is only active on signed application (no problem for your simulator or unit tests on simulators)
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```objc
 #import "JMResignDetector.h"
