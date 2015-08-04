@@ -1,3 +1,8 @@
+## My other works
+
+[http://leverdeterre.github.io] (http://leverdeterre.github.io)
+
+
 # JMCrashIfResign
 
 JMCrashIfResign is a way to protect your application against bad usage.
